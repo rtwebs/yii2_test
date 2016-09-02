@@ -1,0 +1,7 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: 'http://final01.com/'
+            browser: chrome
+        - tests\codeception\common\_support\FixtureHelper
